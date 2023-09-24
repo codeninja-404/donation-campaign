@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "picture": "https://i.ibb.co/TTcstv9/Health.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "category_bg": "bg-orange-400",
+        "card_bg": "bg-orange-200",
+        "color_text_button_bg": "#ea580c",
+        "description": "This is the description for Product 1.",
+        "price": "$290.00"
+    },
+    {
+        "id": 2,
+        "picture": "https://i.ibb.co/MR60Zhf/Clothing.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg": "bg-lime-400",
+        "card_bg": "bg-lime-200",
+        "color_text_button_bg": "#65a30d",
+        "description": "This is the description for Product 2.",
+        "price": "$290.00"
+    },
+    {
+        "id": 3,
+        "picture": "https://i.ibb.co/F57Y2Tp/Education.png",
+        "title": "Good education",
+        "category": "Education",
+        "category_bg": "bg-blue-400",
+        "card_bg": "bg-blue-200",
+        "color_text_button_bg": "#2563eb",
+        "description": "This is the description for Product 3.",
+        "price": "$290.00"
+    },
+    {
+        "id": 4,
+        "picture": "https://i.ibb.co/0tWQzKd/Food.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg": "bg-rose-400",
+        "card_bg": "bg-rose-200",
+        "color_text_button_bg": "#e11d48",
+        "description": "This is the description for Product 4.",
+        "price": "$290.00"
+    },
+    {
+        "id": 5,
+        "picture": "https://i.ibb.co/0tWQzKd/Food.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg": "bg-rose-400",
+        "card_bg": "bg-rose-200",
+        "color_text_button_bg": "#e11d48",
+        "description": "This is the description for Product 4.",
+        "price": "$290.00"
+    },
+    {
+        "id": 6,
+        "picture": "https://i.ibb.co/F57Y2Tp/Education.png",
+        "title": "Good education",
+        "category": "Education",
+        "category_bg": "bg-blue-400",
+        "card_bg": "bg-blue-200",
+        "color_text_button_bg": "#2563eb",
+        "description": "This is the description for Product 3.",
+        "price": "$290.00"
+    },
+    {
+        "id": 7,
+        "picture": "https://i.ibb.co/MR60Zhf/Clothing.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg": "bg-lime-400",
+        "card_bg": "bg-lime-200",
+        "color_text_button_bg": "#65a30d",
+        "description": "This is the description for Product 2.",
+        "price": "$290.00"
+    },
+    {
+        "id": 8,
+        "picture": "https://i.ibb.co/TTcstv9/Health.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "category_bg": "bg-orange-400",
+        "card_bg": "bg-orange-200",
+        "color_text_button_bg": "#ea580c",
+        "description": "This is the description for Product 1.",
+        "price": "$290.00"
+    },
+    {
+        "id": 9,
+        "picture": "https://i.ibb.co/TTcstv9/Health.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "category_bg": "bg-orange-400",
+        "card_bg": "bg-orange-200",
+        "color_text_button_bg": "#ea580c",
+        "description": "This is the description for Product 1.",
+        "price": "$290.00"
+    },
+    {
+        "id": 10,
+        "picture": "https://i.ibb.co/MR60Zhf/Clothing.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg": "bg-lime-400",
+        "card_bg": "bg-lime-200",
+        "color_text_button_bg": "#65a30d",
+        "description": "This is the description for Product 2.",
+        "price": "$290.00"
+    },
+    {
+        "id": 11,
+        "picture": "https://i.ibb.co/F57Y2Tp/Education.png",
+        "title": "Good education",
+        "category": "Education",
+        "category_bg": "bg-blue-400",
+        "card_bg": "bg-blue-200",
+        "color_text_button_bg": "#2563eb",
+        "description": "This is the description for Product 3.",
+        "price": "$290.00"
+    },
+    {
+        "id": 12,
+        "picture": "https://i.ibb.co/0tWQzKd/Food.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg": "bg-rose-400",
+        "card_bg": "bg-rose-200",
+        "color_text_button_bg": "#e11d48",
+        "description": "This is the description for Product 4.",
+        "price": "$290.00"
+    },
+]
