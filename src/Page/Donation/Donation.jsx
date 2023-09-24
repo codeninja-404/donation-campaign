@@ -1,8 +1,8 @@
-import React from 'react';
+
 
 const Donation = () => {
     return (
-        <div>
+        <div className='pt-20 container mx-auto px-2 lg:max-w-[1280px]'>
             donation
         </div>
     );
