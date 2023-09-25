@@ -18,17 +18,17 @@ const Card = ({ data }) => {
           background: card_bg,
           color: color_text_button_bg,
         }}
-        className="card card-compact shadow-xl"
+        className="rounded-lg card h-full card-compact shadow-md "
       >
-        <img src={picture} alt="Category" />
-        <div className=" p-4 pb-1">
+        <img className="rounded-t-lg" src={picture} alt="Category" />
+        <div className=" p-4 pb-1 rounded-lg">
           <span
             style={{ background: category_bg }}
-            className="font-semibold rounded-md py-1 px-2 text-lg "
+            className=" rounded-sm py-0.5 px-2 text-md "
           >
             {category}
           </span>
-          <h1 className="text-xl py-2 font-bold">{title}</h1>
+          <h1 className="text-lg py-2 font-bold">{title}</h1>
         </div>
       </div>
     </Link>
