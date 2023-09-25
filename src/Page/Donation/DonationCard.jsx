@@ -10,7 +10,7 @@ const DonationCard = ({ detail }) => {
   } = detail;
   return (
     <div>
-      <div className="rounded-lg card text-center lg:text-left lg:card-side  shadow-xl">
+      <div className="rounded-lg  card text-center lg:text-left lg:card-side  shadow-xl">
         <div className="lg:w-2/5">
           <img
             className="h-full rounded-t-lg lg:rounded-tr-none lg:rounded-l-lg"
@@ -34,8 +34,8 @@ const DonationCard = ({ detail }) => {
             {category}
           </span>
           </div>
-          <h1 className="text-lg py-2 font-bold">{title}</h1>
-          <p>${price}</p>
+          <h1 className="text-lg py-1 font-bold">{title}</h1>
+          <p className="text-lg pb-1">${price}</p>
           <div className="card-actions  justify-center lg:justify-start ">
             <button
               style={{
