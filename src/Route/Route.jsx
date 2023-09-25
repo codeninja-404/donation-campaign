@@ -9,11 +9,12 @@ const appRoute = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout></MainLayout>,
-    errorElement:<ErrorPage></ErrorPage>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
         element: <Home></Home>,
+        loader: () => fetch("data.json"),
       },
       {
         path: "/donation",

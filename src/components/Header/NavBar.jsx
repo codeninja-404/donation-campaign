@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -37,7 +37,8 @@ const NavBar = () => {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+          <img className="p-4 w-5/5 md:w-3/5 lg:w-2/5" src="https://i.ibb.co/xgvLQF0/Logo.png" alt="" />
+         
         </div>
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal gap-4 px-1">
