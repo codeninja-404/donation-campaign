@@ -1,5 +1,3 @@
-# React + Vite
-
 Few Project features.
 
 - In Home page by clicking on each card the app will take user to donation details route dynamically.
