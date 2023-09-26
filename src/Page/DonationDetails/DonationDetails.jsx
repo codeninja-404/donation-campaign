@@ -13,7 +13,7 @@ const DonationDetails = () => {
     setDetail(findDetail);
   }, [id, details]);
   return (
-    <div className="pt-40 container mx-auto px-2 lg:max-w-[1280px]">
+    <div className="pt-40 pb-10 container mx-auto px-2 lg:max-w-[1280px]">
       <DonationDetailsCard detail={detail}></DonationDetailsCard>
     </div>
   );

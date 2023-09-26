@@ -1,5 +1,10 @@
+import { Link } from "react-router-dom";
+
 const DonationCard = ({ detail }) => {
+  
+ 
   const {
+    id,
     picture,
     card_bg,
     color_text_button_bg,
@@ -7,6 +12,7 @@ const DonationCard = ({ detail }) => {
     category,
     title,
     price,
+  
   } = detail;
   return (
     <div>
@@ -27,24 +33,26 @@ const DonationCard = ({ detail }) => {
           className="card-body"
         >
           <div>
-          <span
-            style={{ background: category_bg }}
-            className=" rounded-sm py-0.5 px-2 text-md "
-          >
-            {category}
-          </span>
+            <span
+              style={{ background: category_bg }}
+              className=" rounded-sm py-0.5 px-2 text-md "
+            >
+              {category}
+            </span>
           </div>
           <h1 className="text-lg py-1 font-bold">{title}</h1>
           <p className="text-lg pb-1">${price}</p>
           <div className="card-actions  justify-center lg:justify-start ">
-            <button
-              style={{
-                background: color_text_button_bg,
-              }}
-              className="px-4 py-2  rounded-md text-xl text-white "
-            >
-              View Details
-            </button>
+            <Link to={`/details/${id}`}>
+              <button
+                style={{
+                  background: color_text_button_bg,
+                }}
+                className="px-4 py-2  rounded-md text-xl text-white "
+              >
+                View Details
+              </button>
+            </Link>
           </div>
         </div>
       </div>

@@ -53,14 +53,14 @@ const DonationDetailsCard = ({ detail }) => {
     <div>
       <div className="grid grid-cols-10">
         <div
-          className="hero h-[30vh] md:h-[50vh] rounded-xl row-span-full col-start-1 col-span-full "
+          className="hero h-[30vh] md:h-[60vh] rounded-xl row-span-full col-start-1 col-span-full "
           style={{ backgroundImage: `url(${picture})` }}
         ></div>
-        <div className=" bg-black  bg-opacity-50 row-span-full col-span-full col-end-11 self-end p-8 text-white rounded-b-lg">
+        <div className=" bg-black  bg-opacity-50 row-span-full col-span-full col-end-11 self-end p-3 md:p-5 lg:p-8 text-white rounded-b-lg">
           <button
             onClick={handleDonate}
             style={{ background: color_text_button_bg }}
-            className="px-5 py-3 rounded-md text-xl"
+            className="px-3 py-1 lg:px-5 lg:py-3 rounded-md text-md md:text-xl"
           >
             Donate ${price}{" "}
           </button>
