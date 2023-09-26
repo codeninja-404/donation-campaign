@@ -20,8 +20,6 @@ const Home = () => {
       setSearch(false);
       setDatas(all);
     }
-    // console.log(searchCategory);
-    // console.log(category);
   };
 
   return (
