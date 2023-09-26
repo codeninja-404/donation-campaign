@@ -81,6 +81,18 @@ const Statistics = () => {
           </PieChart>
         </ResponsiveContainer>
       </div>
+      <div className=" ">
+        <div className="md:flex gap-10 justify-center">
+        <div className="flex gap-10 items-center ">
+            <p className="text-lg">Your Donation</p>
+            <div className="bg-[#34d399] h-3 w-24"></div>
+        </div>
+        <div className="flex gap-10 items-center">
+            <p className="text-lg">Total Donation</p>
+            <div className="bg-[#FF5733] h-3 w-24"></div>
+        </div>
+        </div>
+      </div>
     </div>
   );
 };
