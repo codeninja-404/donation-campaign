@@ -24,11 +24,12 @@ const appRoute = createBrowserRouter([
       {
         path: "/statistics",
         element: <Statistics></Statistics>,
+        loader: () => fetch("/data.json"),
       },
       {
         path: "/details/:id",
         element: <DonationDetails></DonationDetails>,
-        loader:()=>fetch("/data.json")
+        loader: () => fetch("/data.json"),
       },
     ],
   },

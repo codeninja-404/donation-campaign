@@ -3,17 +3,12 @@ import DonationCard from "./DonationCard";
 
 const Donation = () => {
   const [donated, setDonated] = useState([]);
-  const [myTotalDonation, setMyTotalDonation] = useState(0);
+
   const [showAll, setShowAll] = useState(false);
   useEffect(() => {
     const itemDonated = JSON.parse(localStorage.getItem("donated"));
     if (itemDonated) {
       setDonated(itemDonated);
-      const myTotalDonation = itemDonated.reduce(
-        (preValue, curItem) => preValue + curItem.price,
-        0
-      );
-      setMyTotalDonation(myTotalDonation);
     } else {
       return;
     }
@@ -36,7 +31,9 @@ const Donation = () => {
         {donated.length > 4 && (
           <button
             onClick={() => setShowAll(true)}
-            className={`${showAll && "hidden"} px-4 py-2  rounded-md text-xl bg-green-800 text-white`}
+            className={`${
+              showAll && "hidden"
+            } px-4 py-2  rounded-md text-xl bg-green-800 text-white`}
           >
             See All
           </button>
