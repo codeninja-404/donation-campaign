@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
-import { PieChart, Pie, Sector, Cell, ResponsiveContainer } from "recharts";
+import { PieChart, Pie, Cell } from "recharts";
 
 const Statistics = () => {
   const RADIAN = Math.PI / 180;
@@ -43,13 +43,11 @@ const Statistics = () => {
       setMyTotalDonation(myTotalDonation);
     }
   }, [itemDonated]);
-  console.log(myTotalDonation);
 
   const globalTotal = datas.reduce(
     (preValue, curItem) => preValue + curItem.price,
     0
   );
-  console.log(globalTotal);
 
   const data = [
     { name: "Group A", value: globalTotal - myTotalDonation },
@@ -58,9 +56,9 @@ const Statistics = () => {
   const COLORS = ["#FF5733", "#34d399"];
   return (
     <div className="pt-40  container mx-auto px-2 lg:max-w-[1280px]">
-      <div style={{ width: "100%", height: 300 }}>
-        <ResponsiveContainer width="100%" height="100%">
-          <PieChart width={600} height={600}>
+      <div className="flex justify-center">
+        <div className="pb-10 md:pb-20">
+          <PieChart width={200} height={200}>
             <Pie
               data={data}
               cx="50%"
@@ -79,18 +77,18 @@ const Statistics = () => {
               ))}
             </Pie>
           </PieChart>
-        </ResponsiveContainer>
+        </div>
       </div>
       <div className=" ">
-        <div className="md:flex gap-10 justify-center">
-        <div className="flex gap-10 items-center ">
+        <div className="flex flex-col md:flex-row md:gap-10 justify-center">
+          <div className="flex gap-10 items-center justify-center ">
             <p className="text-lg">Your Donation</p>
             <div className="bg-[#34d399] h-3 w-24"></div>
-        </div>
-        <div className="flex gap-10 items-center">
+          </div>
+          <div className="flex gap-10 items-center justify-center">
             <p className="text-lg">Total Donation</p>
             <div className="bg-[#FF5733] h-3 w-24"></div>
-        </div>
+          </div>
         </div>
       </div>
     </div>
